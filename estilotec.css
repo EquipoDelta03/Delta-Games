@@ -1,0 +1,25 @@
+p {
+	color: #FFC9AE;
+	font-family: 'Arial', sans-serif;	
+	text-align: left;
+	font-size: 20px;
+}
+body {
+	background-color: #000000;
+	
+}
+
+h1 {
+	color: #F0A500;
+	font-family: 'Forte', sans-serif;
+}
+
+h2 {
+	color: #F93;
+	font-family: 'Franklin Gothic', sans-serif;
+}
+ h3 {
+	color: #FC3;
+	font-family:'Arial Narrow', sans-serif;
+	
+ }

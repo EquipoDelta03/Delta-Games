@@ -1,0 +1,43 @@
+p {
+	color: #FFF;
+  font-family: 'Arvo', serif;
+}
+
+.fondo {
+	background-color:#000;
+	background-attachment:fixed;
+}
+
+h1 {
+	color:#9FC;
+	font-family: 'Rubik', sans-serif;
+	
+}
+ 
+li {
+	color: #FFF;
+  font-family: 'Arvo', serif;
+}
+
+h2 {
+	color:#909;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+	color:#666;
+	font-family: 'Arial', sans-serif;
+
+}
+.noticia1 {
+			color: #FFF;
+	font-family: 'Berlin Sans FB', sans-serif;	
+	text-shadow: 5px 3px 5px  #0CF;
+	text-align: center;
+	font-size: 80px;
+}
+
+.fondoformtrabajo {
+	background-color:#821A77;
+	
+}
