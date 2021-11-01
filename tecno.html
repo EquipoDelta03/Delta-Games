@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Delta Games | Las tecnolog&iacute;as del mundo de los videojuegos</title>
+</head>
+
+<link href="estilotec.css" rel="stylesheet" type="text/css" />
+
+<body>
+
+
+<h1>Unreal Engine 5 y los Nanite</h1>
+<p>Nanite es un sistema de geometr&iacute;a micro poligon<img src="unreal5.jpeg" width="300" height="300" align="right" />al de forma virtual que permite crear juegos con miles de detalles geom&eacute;tricos. Este sistema de Mesh Rendering, permite cargar literalmente cientos de millones de pol&iacute;gonos en escena sin mermar la carga. Gracias a esta funci&oacute;n, dejaremos de bakear cada uno de los detalles y ya no tendremos que crear manualmente LODs. </p>
+  
+ <p> Esta herramienta nos va a permitir importar todo tipo de materiales formados por millones de pol&iacute;gonos y colocarlos las veces que sean necesarias sin p&eacute;rdida de calidad.  Esto permite realizar un enorme salto gr&aacute;fico, ya que nos ofrece la posibilidad de meter modelos escaneados del mundo real sin un coste de rendimiento importante.</p>
+  
+<p>Detr&aacute;s de esta tecnolog&iacute;a se encuentran avances en el c&oacute;mputo de las tarjetas gr&aacute;ficas m&aacute;s modernas. Por lo que uno de los requisitos para disfrutar de esta tecnolog&iacute;a es disponer de una gr&aacute;fica con arquitectura Nvidia Maxwell (Serie 7XX) o AMD GCN (Serie 4XX) en adelante. </p>
+<h2>Inclusi&oacute;n directa con Quixel Content</h2>
+<h3><img src="quixel.jpg" width="400" height="300" align="left" />Quixel bridge</h3>
+<p>Para acceder a Nanite, basta con desplegar el men&uacute; de opciones en el content browser y acceder a la &uacute;ltima opci&oacute;n. Una vez dentro del Quixel Content, basta con elegir un elemento que se quiera integrar y arrastrarlo dentro del motor. </p>
+  
+  <p>Tras terminar el proceso de descarga, Unreal Engine 5, crea la jerarqu&iacute;a de carpetas y lo incluye dentro de la escena. Hay varias opciones de personalizaci&oacute;n para la descarga de elementos dentro de Quixel Content, pero gracias a la tecnolog&iacute;a de Nanite, se pueden descargar las mallas con la m&aacute;xima calidad, y que autom&aacute;ticamente el motor gr&aacute;fico genere los niveles de calidad apropiados para la escena en cada momento de ejecuci&oacute;n con la facilidad de configuraci&oacute;n de unas pocas opciones.
+    
+    No hace falta que te pongas l&iacute;mites ya que el propio sistema se encarga de optimizar a tiempo real la cantidad de pol&iacute;gonos del modelo, aumentando o disminuyendo dependiendo de si est&aacute; m&aacute;s cerca o lejos de la pantalla.
+  </p>
+  <h3>Lumen</h3>
+<p> Lumen es un sistema de iluminaci&oacute;n din&aacute;mica de nueva generaci&oacute;n. La principal novedad, es <img src="lumen.jpg" width="418" height="252" align="right" />que es un h&iacute;brido entre el sistema tradicional de iluminaci&oacute;n voxel y raytracing, pero sin el costoso c&aacute;lculo computacional de esta &uacute;ltima tecnolog&iacute;a.
+    
+    Con Lumen, puedes crear escenas din&aacute;micas y cre&iacute;bles en las que la iluminaci&oacute;n indirecta se adapta sobre la marcha a los cambios de la iluminaci&oacute;n directa o de la geometr&iacute;a. Esta herramienta de iluminaci&oacute;n global permite cambiar el &aacute;ngulo del sol dependiendo de la hora del d&iacute;a con solo encender una linterna o abrir una puerta.  Te ofrece una alta calidad visual, sin influir gravemente en el rendimiento mientras facilita y simplifica el desarrollo.
+    
+  A partir de ahora, ya no es necesario crear UVs de mapas de luz, se podr&aacute; editar y crear luces dentro del propio Editor de Unreal y ver la misma iluminaci&oacute;n final que cuando el juego se ejecuta en cualquier tipo de plataforma</p>
+<h2>Video acerca de Unreal Engine 5 (Cr&eacute;ditos a Unreal Engine y Epic Games):</h2>
+<p>
+  <embed src="unreal5.mp4" width="726" height="331"></embed>
+</p>
+<p>&nbsp;</p>
+</p>
+</body>
+</html>
